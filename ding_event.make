@@ -55,4 +55,4 @@ projects[ting_reference][download][tag] = "7.x-0.18"
 
 projects[views][type] = module
 projects[views][subdir] = contrib
-projects[views][version] = 3.0
+projects[views][version] = 3.3
