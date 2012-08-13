@@ -32,7 +32,7 @@ projects[ding_content][download][tag] = "7.x-0.15"
 
 projects[features][type] = module
 projects[features][subdir] = contrib
-projects[features][version] = 1.0-rc3
+projects[features][version] = "1.0"
 
 
 ; Changed to download as git repository due to failing when applying
