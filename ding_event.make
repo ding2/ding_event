@@ -8,6 +8,16 @@ projects[ding_page][download][type] = "git"
 projects[ding_page][download][url] = "git@github.com:ding2/ding_page.git"
 projects[ding_page][download][tag] = "7.x-0.12"
 
+projects[ding_content][type] = module
+projects[ding_content][download][type] = git
+projects[ding_content][download][url] = git@github.com:ding2/ding_content.git
+projects[ding_content][download][tag] = "7.x-0.15"
+
+projects[ting_reference][type] = module
+projects[ting_reference][download][type] = git
+projects[ting_reference][download][url] = git@github.com:ding2/ting_reference.git
+projects[ting_reference][download][tag] = "7.x-0.18"
+
 ; Contrib modules
 
 projects[addressfield][type] = module
@@ -24,11 +34,6 @@ projects[ctools][version] = "1.1"
 
 projects[date][subdir] = contrib
 projects[date][version] = 2.0-rc1
-
-projects[ding_content][type] = module
-projects[ding_content][download][type] = git
-projects[ding_content][download][url] = git@github.com:ding2/ding_content.git
-projects[ding_content][download][tag] = "7.x-0.15"
 
 projects[features][type] = module
 projects[features][subdir] = contrib
@@ -48,11 +53,6 @@ projects[og][patch][] = http://drupal.org/files/1320778.patch
 projects[strongarm][type] = module
 projects[strongarm][subdir] = contrib
 projects[strongarm][version] = 2.0-beta4
-
-projects[ting_reference][type] = module
-projects[ting_reference][download][type] = git
-projects[ting_reference][download][url] = git@github.com:ding2/ting_reference.git
-projects[ting_reference][download][tag] = "7.x-0.18"
 
 projects[views][type] = module
 projects[views][subdir] = contrib
