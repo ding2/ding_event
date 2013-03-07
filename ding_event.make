@@ -5,28 +5,23 @@ core = 7.x
 
 projects[ding_latto_frontend][type] = "module"
 projects[ding_latto_frontend][download][type] = "git"
-projects[ding_latto_frontend][download][url] = "git@github.com:ding2tal/ding_latto_frontend.git"
-projects[ding_latto_frontend][download][branch] = "development"
+projects[ding_latto_frontend][download][url] = "git@github.com:ding2/ding_latto_frontend.git"
 
 projects[ding_page][type] = "module"
 projects[ding_page][download][type] = "git"
-projects[ding_page][download][url] = "git@github.com:ding2tal/ding_page.git"
-projects[ding_page][download][branch] = "development"
+projects[ding_page][download][url] = "git@github.com:ding2/ding_page.git"
 
 projects[ding_content][type] = module
 projects[ding_content][download][type] = git
-projects[ding_content][download][url] = git@github.com:ding2tal/ding_content.git
-projects[ding_content][download][branch] = "development"
+projects[ding_content][download][url] = git@github.com:ding2/ding_content.git
 
 projects[ding_user_roles][type] = "module"
 projects[ding_user_roles][download][type] = "git"
-projects[ding_user_roles][download][url] = "git@github.com:ding2tal/ding_user_roles.git"
-projects[ding_user_roles][download][branch] = "development"
+projects[ding_user_roles][download][url] = "git@github.com:ding2/ding_user_roles.git"
 
 projects[ting_reference][type] = module
 projects[ting_reference][download][type] = git
-projects[ting_reference][download][url] = git@github.com:ding2tal/ting_reference.git
-projects[ting_reference][download][branch] = "development"
+projects[ting_reference][download][url] = git@github.com:ding2/ting_reference.git
 
 projects[ding_place2book][type] = module
 projects[ding_place2book][download][type] = "git"
