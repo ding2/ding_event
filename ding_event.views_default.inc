@@ -1383,6 +1383,15 @@ function ding_event_views_default_views() {
   $handler->display->display_options['fields']['view_node']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['view_node']['element_default_classes'] = FALSE;
   $handler->display->display_options['fields']['view_node']['text'] = 'Læs mere';
+  /* Field: OG membership: Group ID */
+  $handler->display->display_options['fields']['gid']['id'] = 'gid';
+  $handler->display->display_options['fields']['gid']['table'] = 'og_membership';
+  $handler->display->display_options['fields']['gid']['field'] = 'gid';
+  $handler->display->display_options['fields']['gid']['relationship'] = 'og_membership_rel';
+  $handler->display->display_options['fields']['gid']['label'] = '';
+  $handler->display->display_options['fields']['gid']['exclude'] = TRUE;
+  $handler->display->display_options['fields']['gid']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['gid']['separator'] = '';
   $handler->display->display_options['defaults']['arguments'] = FALSE;
   /* Contextual filter: OG membership: Group ID */
   $handler->display->display_options['arguments']['gid']['id'] = 'gid';
