@@ -158,6 +158,16 @@ function ding_event_install_menu_position($op = 'install') {
   }
 }
 
+function ding_event_views_query_alter(&$view, &$query) {
+  if ($view->name == 'ding_event' && $view->current_display == 'ding_event_groups_list') {
+    $query->table_queue['og_membership_node_1']['join']->extra[] = array(
+      'field' => 'gid',
+      'value' => reset($views->args),
+      'operator' => '<>',
+    );
+  }
+}
+
 /**
  * Implements hook_views_pre_execute().
  *
