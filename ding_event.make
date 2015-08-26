@@ -5,32 +5,32 @@ api = 2
 projects[ding_page][type] = "module"
 projects[ding_page][download][type] = "git"
 projects[ding_page][download][url] = "git@github.com:ding2/ding_page.git"
-projects[ding_page][download][tag] = "7.x-2.3.0-rc3"
+projects[ding_page][download][tag] = "7.x-2.3.0-rc4"
 
 projects[ding_base][type] = "module"
 projects[ding_base][download][type] = "git"
 projects[ding_base][download][url] = "git@github.com:ding2/ding_base.git"
-projects[ding_base][download][tag] = "7.x-2.3.0-rc3"
+projects[ding_base][download][tag] = "7.x-2.3.0-rc4"
 
 projects[ding_content][type] = "module"
 projects[ding_content][download][type] = "git"
 projects[ding_content][download][url] = "git@github.com:ding2/ding_content.git"
-projects[ding_content][download][tag] = "7.x-2.3.0-rc3"
+projects[ding_content][download][tag] = "7.x-2.3.0-rc4"
 
 projects[ding_frontend][type] = "module"
 projects[ding_frontend][download][type] = "git"
 projects[ding_frontend][download][url] = "git@github.com:ding2/ding_frontend.git"
-projects[ding_frontend][download][tag] = "7.x-2.3.0-rc3"
+projects[ding_frontend][download][tag] = "7.x-2.3.0-rc4"
 
 projects[ting_reference][type] = "module"
 projects[ting_reference][download][type] = "git"
 projects[ting_reference][download][url] = "git@github.com:ding2/ting_reference.git"
-projects[ting_reference][download][tag] = "7.x-2.3.0-rc3"
+projects[ting_reference][download][tag] = "7.x-2.3.0-rc4"
 
 projects[ding_place2book][type] = "module"
 projects[ding_place2book][download][type] = "git"
 projects[ding_place2book][download][url] = "git@github.com:ding2/ding_place2book.git"
-projects[ding_place2book][download][tag] = "7.x-2.3.0-rc3"
+projects[ding_place2book][download][tag] = "7.x-2.3.0-rc4"
 
 projects[addressfield][subdir] = "contrib"
 projects[addressfield][version] = "1.0-beta5"
